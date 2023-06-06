@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+.box{
+    width: 25%;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 15px;
+    animation: color 1s infinite;
+    margin: 15px;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+.box h1{
+    color: white;
+    text-align: center;
+} 
+@keyframes color{
+    0%{
+        border: 1px solid red;
+        box-shadow: 5px 5px 5px red;
+    }
+    25%{
+        border: 1px solid  rgb(255,238,0);
+        box-shadow: 5px 7px 5px  rgb(255,238,0);
+    }
+    50%{
+        border: 1px solid  rgb(30,255 ,0 );
+        box-shadow: 5px 5px 5px rgb(30,255 ,0 );
+    }
+    75%{
+        border: 1px solid  rgb(0,17 ,255 );
+        box-shadow: 5px 7px 5px rgb(0,17 ,255 );
+    }
+    100%{
+        border: 1px solid  rgb(225,0,255);
+        box-shadow: 5px 5px 5px rgb(225,0,255)
+    }
+}
